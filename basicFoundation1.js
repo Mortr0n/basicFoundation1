@@ -122,8 +122,8 @@ function negatives(arr) {
 // console.log(newArr);
 
 function maxMinAvg(arr) {
-    var max = 0;
-    var min = 0;
+    var max = arr[0];
+    var min = arr[0];
     var avg = 0;
     var sum = 0;
     for (var i = 0; i < arr.length; i++) {
@@ -140,8 +140,8 @@ function maxMinAvg(arr) {
     return arr;
 }
 
-// var newMaxMinAvg = maxMinAvg([1, 5, 10, -2]);
-// console.log(newMaxMinAvg);
+var newMaxMinAvg = maxMinAvg([1, 5, 10, -2]);
+console.log(newMaxMinAvg);
 
 function swapValues(arr){
     var first = arr[0];
@@ -162,5 +162,5 @@ function numberToString(arr){
     return arr;
 }
 
-var testNumberToString = numberToString([-1,-3,2]);
-console.log(testNumberToString);
+// var testNumberToString = numberToString([-1,-3,2]);
+// console.log(testNumberToString);
